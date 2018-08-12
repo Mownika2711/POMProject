@@ -50,6 +50,11 @@ public class LoginTest extends TestBase{
 		homePage=loginPage.login(prop.getProperty("userName"), prop.getProperty("password"));
 	}
 	
+	@Test
+	public void checkGitHub()
+	{
+		System.out.println("test");
+	}
 	
 	@AfterMethod
 	public void tearDown()
