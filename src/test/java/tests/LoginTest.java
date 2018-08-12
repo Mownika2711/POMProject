@@ -26,6 +26,8 @@ public class LoginTest extends TestBase{
 		loginPage=new LoginPage();
 	}
 	
+	
+	
 	//verify login page title
 	//@Test(priority=1,retryAnalyzer=analyzer.RetryAnalyzer.class)
 	@Test(priority=1)
@@ -56,6 +58,12 @@ public class LoginTest extends TestBase{
 		System.out.println("Changing text here");
 	}
 
+	
+	@Test
+	public void newTest()
+	{
+		System.out.println("test");
+	}
 	
 	@AfterMethod
 	public void tearDown()
