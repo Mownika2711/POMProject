@@ -62,7 +62,7 @@ public class LoginTest extends TestBase{
 	@Test
 	public void newTest()
 	{
-		System.out.println("text changed from local");
+		System.out.println("text changed locally");
 		System.out.println("test changed from github");
 	}
 	
