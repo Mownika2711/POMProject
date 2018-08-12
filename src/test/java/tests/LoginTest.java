@@ -69,6 +69,7 @@ public class LoginTest extends TestBase{
 	@AfterMethod
 	public void tearDown()
 	{
+		System.out.println("closing browser");
 		driver.quit();
 	}
 
