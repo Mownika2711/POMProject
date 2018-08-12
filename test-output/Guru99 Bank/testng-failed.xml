@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Guru99 Bank]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="testGuru(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="verifyLoginPageTitle"/>
+          <include name="verifyLabelDisplay"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyWelcomeMessage"/>
+          <include name="setUp"/>
+          <include name="verifyManagerID"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [Guru99 Bank] -->

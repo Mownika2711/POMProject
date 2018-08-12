@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Bank" parallel="classes" thread-count="3">
+<listeners>
+	<listener class-name="extentReportListener.ExtentReportListener"></listener>
+</listeners>
+
+
+	<test name="testGuru">
+		<classes>
+		<class name="tests.LoginTest"></class>
+		<class name="tests.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>
