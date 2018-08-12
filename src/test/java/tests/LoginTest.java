@@ -62,7 +62,7 @@ public class LoginTest extends TestBase{
 	@Test
 	public void newTest()
 	{
-		System.out.println("test");
+		System.out.println("test changed from github");
 	}
 	
 	@AfterMethod
