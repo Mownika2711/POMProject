@@ -53,8 +53,9 @@ public class LoginTest extends TestBase{
 	@Test
 	public void checkGitHub()
 	{
-		System.out.println("test");
+		System.out.println("Changing text here");
 	}
+
 	
 	@AfterMethod
 	public void tearDown()
